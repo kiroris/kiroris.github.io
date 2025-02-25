@@ -1,6 +1,13 @@
 class Config {
   defaults = {
     overrideStorage: false,
+    /*tabsBackground: {
+      type: "image",
+      value: "url(src/img/test.jpg)",
+      size: "cover",
+      repeat: "no-repeat",
+      position: "center"
+    },*/
     crypto: {
       currency: 'USD',
       coin: 'ETH',
@@ -31,13 +38,16 @@ class Config {
 
   config;
 
-  constructor (config) {
+  constructor(config) {
     this.config = config;
     this.storage = new Storage('config');
 
     this.autoConfig();
     this.setKeybindings();
     this.save();
+
+    /*// Initialize background when config is loaded.
+    this.updateBackground();*/
 
     return new Proxy(this, {
       ...this,
@@ -46,6 +56,44 @@ class Config {
         this.settingUpdatedCallback(target, prop, value)
     });
   }
+
+  /*/**
+   * Update the background based on current config
+   * @returns {void}
+   *
+  updateBackground() {
+    const tabsList = document.querySelector('tabs-list');
+    if (!tabsList) return;
+
+    const bgConfig = this.config.tabsBackground;
+    
+    if (bgConfig.type === "image") {
+      tabsList.style.backgroundImage = bgConfig.value;
+      tabsList.style.backgroundColor = 'transparent';
+    } else if (bgConfig.type === "color") {
+      tabsList.style.backgroundImage = 'none';
+      tabsList.style.backgroundColor = bgConfig.value;
+    }
+
+    tabsList.style.backgroundSize = bgConfig.size || 'cover';
+    tabsList.style.backgroundRepeat = bgConfig.repeat || 'no-repeat';
+    tabsList.style.backgroundPosition = bgConfig.position || 'center';
+  }
+
+  /**
+   * Set background configuration and update display
+   * @param {Object} newBackground - New background configuration
+   * @returns {void}
+   *
+  setBackground(newBackground) {
+    this.config.tabsBackground = {
+      ...this.config.tabsBackground,
+      ...newBackground
+    };
+    
+    this.updateBackground();
+    this.save();
+  }*/
 
   /**
    * Automatically save whenever a config property is updated.
@@ -56,6 +104,11 @@ class Config {
 
     Reflect.set(target, prop, val);
     Object.assign(this, target);
+
+    /*// Update background if tabsBackground was changed
+    if (prop === 'tabsBackground') {
+      this.updateBackground();
+    }*/
 
     this.save();
 
@@ -123,3 +176,10 @@ class Config {
     anchor.click();
   }
 }
+
+/*// Initialize background when DOM is loaded
+document.addEventListener('DOMContentLoaded', () => {
+  if (window.CONFIG) {
+    CONFIG.updateBackground();
+  }
+});*/
