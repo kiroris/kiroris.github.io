@@ -19,6 +19,11 @@ const default_config = {
       p: ["https://www.pinterest.es/search/pins/?q=", "Pinterest"],
     },
   },
+  crypto: {
+    coin: 'ETH',
+    currency: 'USD',
+    refreshIn: 10
+  },
   keybindings: {
     "s": "search-bar",
     //"q": "config-tab",

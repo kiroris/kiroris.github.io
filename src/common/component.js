@@ -30,7 +30,7 @@ class Component extends HTMLElement {
   imports()  { return []; }
 
   /**
-   * Reference an external css file
+   * Reference an external css file.
    * OBS: External style loading not yet fully supported with web components, causes flickering.
    * @param {string} path
    * @returns {void}

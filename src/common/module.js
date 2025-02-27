@@ -1,15 +1,13 @@
 const components = {
   'search-bar': Search,
-  /*'todo-list': Todo,*/
   'config-tab': ConfigTab,
   'status-bar': Statusbar,
-  /*'crypto-rate': Crypto,
+  'crypto-rate': Crypto,
   'crypto-popup': CryptoPopup,
-  'crypto-diff': CryptoDiff,*/
+  'crypto-diff': CryptoDiff,
   'current-time': Clock,
   'weather-forecast': Weather,
   'tabs-list': Tabs,
-  /*'modal-popup': Modal*/
 };
 
 Object.keys(components).forEach(componentName => {
