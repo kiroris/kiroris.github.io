@@ -20,7 +20,7 @@ class Clock extends Component {
         .clock-time {
             white-space: nowrap;
             font: 300 9pt 'Roboto', sans-serif;
-            color: #c1c1c1;
+            color: #F2F2F2;
             letter-spacing: .5px;
         }
 

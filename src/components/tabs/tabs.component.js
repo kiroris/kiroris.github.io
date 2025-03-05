@@ -89,7 +89,7 @@ class Tabs extends Component {
       status-bar {
           bottom: -70px;
           height: 32px;
-          background: #282828;
+          background: #181919;
           border-radius: 4px;
           box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
       }
@@ -114,7 +114,7 @@ class Tabs extends Component {
           bottom: 0;
           margin: auto;
           box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-          background: #282828;
+          background: #f; /*#181919*/
       }
 
       .categories {
@@ -199,7 +199,7 @@ class Tabs extends Component {
           right: 0;
           width: 70%;
           height: 100%;
-          background: #282828;
+          background: #181919; /*#1A1B1B;#171818;#181919;*/
           padding: 5%;
           flex-wrap: wrap;
       }
@@ -209,14 +209,14 @@ class Tabs extends Component {
       }
 
       .categories ul .links a {
-          color: #d4be98;
+          color: #E6E6E6; /*F2F2F2*/
           text-decoration: none;
           font: 700 18px 'Roboto', sans-serif;
           transition: all .2s;
           display: inline-flex;
           align-items: center;
           padding: .4em .7em;
-          background: #32302f;
+          background: #2B2C2E; /*2B2C2D*/
           box-shadow: 0 4px rgba(50, 48, 47, 0.5), 0 5px 10px rgb(0 0 0 / 20%);
           border-radius: 2px;
           margin-bottom: .7em;
@@ -229,7 +229,7 @@ class Tabs extends Component {
       .categories .link-info:not(:last-child) { margin-right: .5em; }
 
       .categories ul .links a:hover {
-          transform: translate(0, 4px);
+          transform: translate(0, 4px); /*scale(1,2)*/
           box-shadow: 0 0 rgba(0, 0, 0, 0.25), 0 0 0 rgba(0, 0, 0, .5), 0 -0px 5px rgba(0, 0, 0, .1);
           color: var(--flavour);
       }
@@ -245,29 +245,30 @@ class Tabs extends Component {
           padding: 1em;
           margin: auto;
           border-radius: 5px;
-          box-shadow: inset 0 0 0 2px var(--flavour);
+          box-shadow: inset 0 0 0 1.5px rgb(255 255 255 / 50%); /*var(--flavour);*/
           left: calc(15% - 42.5px);
           bottom: 0;
           top: 0;
-          background: linear-gradient(to top, rgb(50 48 47 / 90%), transparent);
-          color: var(--flavour);
+          background: linear-gradient(to top, #000000, rgb(191 191 191 / 40%)); /*(to top, rgb(50 48 47 / 90%), transparent);*/
+          color: rgb(255 255 255 / 65%); /*var(--flavour);*/
           letter-spacing: 1px;
-          font: 500 30px 'Nunito', sans-serif;
+          font: 100 30px 'Nunito', sans-serif;
           text-align: center;
           flex-wrap: wrap;
           word-break: break-all;
           align-items: center;
+          mix-blend-mode: screen;
           backdrop-filter: blur(3px);
       }
 
       .categories .links li:not(:last-child) {
-          box-shadow: 0 1px 0 rgba(212, 190, 152, .25);
+          box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
           padding: 0 0 .5em 0;
           margin-bottom: 1.5em;
       }
 
       .categories .links li h1 {
-          color: #d4be98;
+          color:rgb(228, 228, 228);
 	        opacity: 0.5;
           font-size: 13px;
           margin-bottom: 1em;

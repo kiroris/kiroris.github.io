@@ -161,7 +161,7 @@ class Crypto extends Component {
   style() {
     return `
       :host {
-          --main-accent: #6fd468;
+          --main-accent: rgb(228, 125, 223); /*#6fd468;*/
       }
 
       * {
@@ -190,7 +190,7 @@ class Crypto extends Component {
       .crypto-coin {
           font-weight: bold;
           margin-right: 10px;
-          font-size: 7pt;
+          font-size: 10pt;
       }
 
       .crypto-value {

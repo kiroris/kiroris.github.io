@@ -97,7 +97,7 @@ class Weather extends Component {
       }
 
       .weather-condition-icon.sunny {
-          color: #fd6697;
+          color:rgb(240, 159, 10);
       }
 
       .weather-condition-icon.cloudy {

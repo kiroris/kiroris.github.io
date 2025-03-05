@@ -49,7 +49,7 @@ class CryptoPopup extends Component {
   style() {
     return `
       .dropdown {
-          background: #202025;
+          background: #181919;
           color: #bfbfbf;
           outline: 0;
           border: 0;

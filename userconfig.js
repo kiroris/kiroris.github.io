@@ -20,7 +20,7 @@ const default_config = {
     },
   },
   crypto: {
-    coin: 'ETH',
+    coin: 'BTC',
     currency: 'USD',
     refreshIn: 10
   },
@@ -30,7 +30,7 @@ const default_config = {
   },
   disabled: [],
   localIcons: false,
-  fastlink: "https://chat.openai.com/",
+  fastlink: "https://search.nixos.org/packages",
   openLastVisitedTab: true,
   tabs: [
     {

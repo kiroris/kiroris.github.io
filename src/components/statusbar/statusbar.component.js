@@ -69,7 +69,7 @@ class Statusbar extends Component {
           width: 35px;
           text-align: center;
           font: 700 13px 'Yu Gothic', serif;
-          color: rgba(212, 190, 152, 0.5);
+          color: rgba(255, 255, 255, 0.5);
           padding: 6px 0;
           transition: all .1s;
           cursor: pointer;
@@ -78,7 +78,7 @@ class Statusbar extends Component {
       }
 
       #tabs ul li:not(:last-child):hover {
-          background: #32302f;
+          background:rgba(255, 255, 255, .05);
       }
 
       #tabs ul li:last-child {
@@ -91,7 +91,7 @@ class Statusbar extends Component {
       }
 
       #tabs ul li[active]:not(:last-child) {
-          color: #d4be98;
+          color: #E1E1E1;
           font-size: 13px;
           padding: 6px 0;
       }
@@ -208,8 +208,8 @@ class Statusbar extends Component {
 
       .fastlink {
           border: 0;
-          background: #32302f;
-          color: #a9b665;
+          background: #2B2C2E;
+          color: #628FEA;
           cursor: pointer;
           border-radius: 5px 15px 15px 5px;
       }
@@ -229,7 +229,7 @@ class Statusbar extends Component {
         <div id="tabs">
             <cols>
                 <button class="+ fastlink">
-                  <img class="fastlink-icon" src="src/img/pokeball.svg"/>
+                  <img class="fastlink-icon" src="src/img/NixOS.svg"/>
                 </button>
                 <ul class="- indicator"></ul>
                 <div class="+ widgets col-end">
