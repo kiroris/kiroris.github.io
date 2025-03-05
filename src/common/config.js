@@ -19,7 +19,7 @@ class Config {
     },
     clock: {
       format: 'h:i p',
-      iconColor: '#ff7b95'
+      iconColor: '#ea6962'
     },
     search: {
       engines: {
@@ -31,7 +31,6 @@ class Config {
     openLastVisitedTab: false,
     tabs: [],
     keybindings: {
-      /*"t": 'todo-list',*/
       "s": 'search-bar'
     }
   };
@@ -58,7 +57,7 @@ class Config {
   }
 
   /*/**
-   * Update the background based on current config
+   * Update the background based on current config.
    * @returns {void}
    *
   updateBackground() {
@@ -81,7 +80,7 @@ class Config {
   }
 
   /**
-   * Set background configuration and update display
+   * Set background configuration and update display.
    * @param {Object} newBackground - New background configuration
    * @returns {void}
    *
@@ -105,7 +104,7 @@ class Config {
     Reflect.set(target, prop, val);
     Object.assign(this, target);
 
-    /*// Update background if tabsBackground was changed
+    /*// Update background if tabsBackground was changed.
     if (prop === 'tabsBackground') {
       this.updateBackground();
     }*/
@@ -177,7 +176,7 @@ class Config {
   }
 }
 
-/*// Initialize background when DOM is loaded
+/*// Initialize background when DOM is loaded.
 document.addEventListener('DOMContentLoaded', () => {
   if (window.CONFIG) {
     CONFIG.updateBackground();

@@ -429,7 +429,7 @@ const CONFIG = new Config(saved_config ?? default_config);
     document.getElementsByTagName('head')[0].appendChild(css);
 })();
     
-CONFIG.setBackground(CONFIG.config.tabsBackground);
+//CONFIG.setBackground(CONFIG.config.tabsBackground);
     
     
     // // Merge saved config with default config, preferring saved values
