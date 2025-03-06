@@ -35,33 +35,33 @@ const default_config = {
   tabs: [
     {
       name: "chi ll",
-      background_url: "src/img/banners/cbg-2.gif",
+      /*background_url: "src/img/banners/cbg-2.gif",*/
       categories: [{
         name: "Social Media",
         links: [
           {
             name: "autistici",
             url: "https://vc.autistici.org/",
-            icon: "message-circle",
+            icon: "users",
             icon_color: "#7daea3",
           },
           {
             name: "discord",
             url: "https://discord.com/channels/@me",
             icon: "brand-discord",
-            icon_color: "#8C9EFF",
+            icon_color: "#7F8FE9",
           },
           {
             name: "reddit",
             url: "https://www.reddit.com/",
             icon: "brand-reddit",
-            icon_color: "#e78a4e",
+            icon_color: "#E16537",
           },
           {
             name: "telegram",
             url: "https://web.telegram.org",
             icon: "brand-telegram",
-            icon_color: "#7db9ff", // Updated to a bright blue
+            icon_color: "#73AAE9",
           },
         ],
       }, {
@@ -71,7 +71,7 @@ const default_config = {
             name: "steam",
             url: "https://store.steampowered.com",
             icon: "brand-steam",
-            icon_color: "#7aa2f7", // Updated to a bright blue
+            icon_color: "#7aa2f7", 
           },
           {
             name: "chess",
@@ -83,13 +83,13 @@ const default_config = {
             name: "epic",
             url: "https://store.epicgames.com",
             icon: "brand-fortnite",
-            icon_color: "#e0af68", // Updated to a gold
+            icon_color: "#e0af68",
           },
           {
             name: "GG",
-            url: "https://ggapp.io/pivoshenko",
+            url: "https://ggapp.io/kiroris",
             icon: "device-gamepad",
-            icon_color: "#d3869b", // Updated to a muted green
+            icon_color: "#d3869b",
           },
           {
             name: "faceit",
@@ -131,12 +131,18 @@ const default_config = {
             icon: "brand-amazon",
             icon_color: "#7daea3",
           },
+          {
+            name: "inoriginal",
+            url: "https://inoriginal.net/",
+            icon: "language",
+            icon_color: "#73AAE9",
+          },
         ],
       }],
     },
     {
-      name: "tools",
-      background_url: "src/img/banners/cbg-6.gif",
+      name: "stuff", //tools
+      /*background_url: "src/img/banners/cbg-6.gif",*/
       categories: [
         {
           name: "programming",
@@ -145,19 +151,19 @@ const default_config = {
               name: "vscode",
               url: "https://vscode.dev/",
               icon: "brand-vscode",
-              icon_color: "#3BA4D9",
+              icon_color: "#73AAE9",
             },
             {
-              name: "rust",
+              name: "rust doc",
               url: "https://doc.rust-lang.org/book/",
               icon: "brand-rust",
               icon_color: "#e78a4e",
             },
             {
-              name: "go",
+              name: "go doc",
               url: "https://go.dev/doc/",
               icon: "brand-golang",
-              icon_color: "#6AD9CC",
+              icon_color: "#5FC2B5",
             },
           ],
         },
@@ -194,10 +200,16 @@ const default_config = {
           name: "ai tools",
           links: [
             {
-              name: "gemini",
-              url: "https://gemini.google.com/",
-              icon: "circle-letter-g",
-              icon_color: "#ea6962",
+              name: "phind",
+              url: "https://www.phind.com/",
+              icon: "hierarchy-3",
+              icon_color: "#89b482",
+            },
+            {
+              name: "claude",
+              url: "https://claude.ai/new",
+              icon: "brain",
+              icon_color: "#ff9e64",
             },
             {
               name: "chatgpt",
@@ -206,10 +218,22 @@ const default_config = {
               icon_color: "#89b482",
             },
             {
+              name: "gemini",
+              url: "https://gemini.google.com/",
+              icon: "circle-letter-g",
+              icon_color: "#ea6962",
+            },
+            {
+              name: "deepl",
+              url: "https://www.deepl.com/",
+              icon: "git-merge",
+              icon_color: "#7DB6E1",
+            },
+            {
               name: "codeium",
               url: "https://codeium.com/live",
               icon: "code-dots",
-              icon_color: "#6AD9CC",
+              icon_color: "#5FC2B5",
             },
             {
               name: "leonardo",
@@ -221,19 +245,13 @@ const default_config = {
               name: "copilot",
               url: "https://copilot.microsoft.com/",
               icon: "brand-github-copilot",
-              icon_color: "#3BA4D9",
+              icon_color: "#7daea3",
             },
             {
-              name: "claude",
-              url: "https://claude.ai/new",
-              icon: "brain",
-              icon_color: "#ff9e64", // Updated to a soft orange
-            },
-            {
-              name: "deepl",
-              url: "https://www.deepl.com/",
-              icon: "git-merge",
-              icon_color: "#7DB6E1",
+              name: "yandex translate",
+              url: "https://translate.yandex.com/",
+              icon: "brand-yandex",
+              icon_color: "#ea6962",
             },
           ],
         },
@@ -241,10 +259,10 @@ const default_config = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/cbg-7.gif",
+      /*background_url: "src/img/banners/cbg-7.gif",*/
       categories: [
         {
-          name: "repositories",
+          name: "repositories/images",
           links: [
             {
               name: "github",
@@ -258,28 +276,22 @@ const default_config = {
               icon: "brand-gitlab",
               icon_color: "#e78a4e",
             },
+            {
+              name: "docker hub",
+              url: "https://hub.docker.com/",
+              icon: "brand-docker",
+              icon_color: " #73AAE9",
+            },
           ],
         },
         {
           name: "resources",
           links: [
             {
-              name: "phind",
-              url: "https://www.phind.com/",
-              icon: "brand-openai",
-              icon_color: "#89b482",
-            },
-            {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
-              icon_color: "#e0af68", // Updated to a soft pink
-            },
-            {
               name: "NixOS Wiki",
               url: "https://nixos.wiki/",
               icon: "square-rounded-letter-n",
-              icon_color: "#7DB6E1",
+              icon_color: " #7DB6E1",
             },
             {
               name: "ArchWiki",
@@ -287,6 +299,14 @@ const default_config = {
               icon: "navigation-minus",
               icon_color: "#73daca", // Updated to a teal
             },
+            {
+              name: "stackoverflow",
+              url: "https://stackoverflow.com",
+              icon: "brand-stackoverflow",
+              icon_color: "#e0af68", // Updated to a soft pink
+            },
+
+
           ],
         },
         {
