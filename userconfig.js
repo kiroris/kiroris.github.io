@@ -280,7 +280,7 @@ const default_config = {
               name: "docker hub",
               url: "https://hub.docker.com/",
               icon: "brand-docker",
-              icon_color: " #73AAE9",
+              icon_color: " #7DB6E1",
             },
           ],
         },
