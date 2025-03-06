@@ -91,7 +91,7 @@ class Tabs extends Component {
           height: 32px;
           background: #181919;
           border-radius: 4px;
-          box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
       }
 
       #panels, #panels ul,
@@ -113,7 +113,7 @@ class Tabs extends Component {
           top: 0;
           bottom: 0;
           margin: auto;
-          box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
           background: #f; /*#181919*/
       }
 
@@ -199,7 +199,7 @@ class Tabs extends Component {
           right: 0;
           width: 70%;
           height: 100%;
-          background: #181919; /*#1A1B1B;#171818;#181919;*/
+          background: #181919; /*#1A1B1B;#171818;#181919*/
           padding: 5%;
           flex-wrap: wrap;
       }
@@ -245,14 +245,14 @@ class Tabs extends Component {
           padding: 1em;
           margin: auto;
           border-radius: 5px;
-          box-shadow: inset 0 0 0 1.5px rgb(255 255 255 / 50%); /*var(--flavour);*/
+          box-shadow: inset 0 0 0 1.5px rgb(255 255 255 / 50%); /*var(--flavour)*/
           left: calc(15% - 42.5px);
           bottom: 0;
           top: 0;
-          background: linear-gradient(to top, #000000, rgb(191 191 191 / 40%)); /*(to top, rgb(50 48 47 / 90%), transparent);*/
-          color: rgb(255 255 255 / 65%); /*var(--flavour);*/
+          background: linear-gradient(to top, #000000, rgb(191 191 191 / 40%)); /*(to top, rgb(50 48 47 / 90%), transparent)*/
+          color: rgb(255 255 255 / 65%); /*var(--flavour)*/
           letter-spacing: 1px;
-          font: 100 30px 'Nunito', sans-serif;
+          font: 100 30px 'Nunito', sans-serif; /*font: 500...*/
           text-align: center;
           flex-wrap: wrap;
           word-break: break-all;
@@ -268,7 +268,7 @@ class Tabs extends Component {
       }
 
       .categories .links li h1 {
-          color:rgb(228, 228, 228);
+          color: #E4E4E4;
 	        opacity: 0.5;
           font-size: 13px;
           margin-bottom: 1em;

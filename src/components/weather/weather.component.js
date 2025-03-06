@@ -86,8 +86,7 @@ class Weather extends Component {
           font-weight: 500;
       }
 
-      .weather-temperature-value
-      {
+      .weather-temperature-value {
           font-weight: bold;
       }
 
@@ -97,7 +96,7 @@ class Weather extends Component {
       }
 
       .weather-condition-icon.sunny {
-          color:rgb(240, 159, 10);
+          color: #F09F0A;
       }
 
       .weather-condition-icon.cloudy {
