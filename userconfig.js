@@ -36,7 +36,7 @@ const default_config = {
     {
       name: "chi ll",
       /*background_url: "src/img/banners/cbg-2.gif",*/
-      background_url: "src/img/banners/lizabg.gif",
+      /*background_url: "src/img/banners/lizabg.gif",*/
       categories: [{
         name: "Social Media",
         links: [
@@ -145,7 +145,7 @@ const default_config = {
       }],
     },
     {
-      name: "stuff", //tools
+      name: "tools", //stuff
       /*background_url: "src/img/banners/cbg-6.gif",*/
       categories: [
         {
