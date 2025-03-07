@@ -35,7 +35,8 @@ const default_config = {
   tabs: [
     {
       name: "chi ll",
-      background_url: "src/img/banners/cbg-2.gif",
+      //background_url: "src/img/banners/cbg-2.gif",
+      background_url: "src/img/banners/girlfriend/lizabg-1.gif",
       categories: [{
         name: "Social Media",
         links: [
@@ -145,7 +146,8 @@ const default_config = {
     },
     {
       name: "tools",
-      background_url: "src/img/banners/cbg-6.gif",
+      //background_url: "src/img/banners/cbg-6.gif",
+      background_url: "src/img/banners/girlfriend/lizabg-2.gif",
       categories: [
         {
           name: "programming",
@@ -262,7 +264,8 @@ const default_config = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/cbg-8.gif",
+      /*background_url: "src/img/banners/cbg-8.gif",*/
+      background_url: "src/img/banners/girlfriend/lizabg-3.gif",
       categories: [
         {
           name: "repositories/images",
