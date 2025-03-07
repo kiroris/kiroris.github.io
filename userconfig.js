@@ -31,12 +31,11 @@ const default_config = {
   disabled: [],
   localIcons: false,
   fastlink: "https://search.nixos.org/packages",
-  openLastVisitedTab: true,
+  openLastVisitedTab: false,
   tabs: [
     {
       name: "chi ll",
-      /*background_url: "src/img/banners/cbg-2.gif",*/
-      /*background_url: "src/img/banners/lizabg.gif",*/
+      background_url: "src/img/banners/cbg-2.gif",
       categories: [{
         name: "Social Media",
         links: [
@@ -145,8 +144,8 @@ const default_config = {
       }],
     },
     {
-      name: "tools", //stuff
-      /*background_url: "src/img/banners/cbg-6.gif",*/
+      name: "tools",
+      background_url: "src/img/banners/cbg-6.gif",
       categories: [
         {
           name: "programming",
@@ -263,7 +262,7 @@ const default_config = {
     },
     {
       name: "dev",
-      /*background_url: "src/img/banners/cbg-7.gif",*/
+      background_url: "src/img/banners/cbg-8.gif",
       categories: [
         {
           name: "repositories/images",
@@ -364,7 +363,7 @@ const default_config = {
     },
     {
       name: "myself",
-      /*background_url: "src/img/banners/cbg-9.gif",*/
+      background_url: "src/img/banners/cbg-9.gif",
       categories: [
         {
           name: "mails",
