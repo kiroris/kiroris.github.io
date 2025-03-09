@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://i.imgur.com/vjfMONS.png">
+</div>
+
 ![image](assets/screenshot.png)
 
 ## ⌨️ Keybindings
