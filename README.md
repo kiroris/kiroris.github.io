@@ -62,6 +62,6 @@ If you want to reduce the loading time of the icons, you could install the [icon
 
 ## 👤 Credits
 Improvised on [Dawn](https://github.com/b-coimbra/dawn), [Terminal127](https://github.com/Terminal127/tokyonight-startpage), and [Taurus](https://github.com/AllJavi/tartarus-startpage)
-[AllJavi](https://github.com/AllJavi) thx for README.
+  [AllJavi](https://github.com/AllJavi) thx for README.
 
 
