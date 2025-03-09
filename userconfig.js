@@ -26,7 +26,7 @@ const default_config = {
   },
   keybindings: {
     "s": "search-bar",
-    //"q": "config-tab",
+    "q": "config-tab",
   },
   disabled: [],
   localIcons: false,
@@ -366,8 +366,8 @@ const default_config = {
     },
     {
       name: "myself",
-      background_url: "src/img/banners/cbg-9.gif",
-      /*background_url: "src/img/banners/girlfriend/lizabg-4.gif",*/
+      /*background_url: "src/img/banners/cbg-9.gif",*/
+      background_url: "src/img/banners/girlfriend/lizabg-4.gif",
       categories: [
         {
           name: "mails",
