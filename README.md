@@ -23,3 +23,14 @@ By default, the defined search engines are:
 - `!y`: youtube
 - `!r`: reddit
 - `!p`: pinterest
+
+
+
+## ⚙️ Configuration Dialog
+![config-dialog](assets/config-dialog.png)
+
+The default configuration file is [userconfig.js](userconfig.js), but you can change it in the configuration dialog. You can find more information about how the file works in the [original repository](https://github.com/b-coimbra/dawn). The available components are tabs, a clock, and weather.
+
+Additionally, there are two different new options:
+- `fastlink`: To set the link of the Pokeball button.
+- `localIcons`: To optimize the loading time of the icons, you can check it out [here](#local-icons).
