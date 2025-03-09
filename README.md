@@ -1,4 +1,4 @@
-# 
+# kiroris
 ![image](assets/screenshot.png)
 
 ## ⌨️ Keybindings
