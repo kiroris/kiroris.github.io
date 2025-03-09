@@ -46,6 +46,8 @@ This project is designed for ease of use. Simply download and open in a browser.
 
 
 ## 👤 Credits
-Improvised on [Dawn](https://github.com/b-coimbra/dawn), [Terminal127](https://github.com/Terminal127/tokyonight-startpage), and [Taurus](https://github.com/AllJavi/tartarus-startpage).
+- [Dawn](https://github.com/b-coimbra/dawn)
+- [Terminal127](https://github.com/Terminal127/tokyonight-startpage)
+- [Taurus](https://github.com/AllJavi/tartarus-startpage).
 
 
