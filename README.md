@@ -51,3 +51,14 @@ This project is designed for ease of use. Simply download and open in a browser.
 2. **Open `index.html`:**  Navigate to the project folder and open the `index.html` file in your preferred web browser.  This will load the start page.
 
 3. You can use the google extention  named `custom new Tab url` which allows you to set a local file as the startup page or you can direcly upload the project using github pages in your own repo using your custom configs :)
+
+
+If you want to reduce the loading time of the icons, you could install the icon font locally and activate the option "localIcons": true in the config to disable the remote styles.
+
+
+## 🖼 Local Icons
+If you want to reduce the loading time of the icons, you could install the [icon font](https://github.com/kiroris/startpage/tree/master/src/fonts) locally and activate the option `"localIcons": true` in the config to disable the remote styles.
+
+
+## 👥 Credits
+Improvised on [Dawn](https://github.com/b-coimbra/dawn), [Taurus](https://github.com/AllJavi/tartarus-startpage), and [Terminal127](https://github.com/Terminal127/tokyonight-startpage)
