@@ -1,4 +1,5 @@
-![image](asstes/screenshot.png)
+# hui
+![image](assets/screenshot.png)
 
 ## ⌨️ Keybindings
 | Hotkey                                            | Action                                  |
