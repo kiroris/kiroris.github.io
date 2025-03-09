@@ -1,4 +1,3 @@
-# hui
 ![image](assets/screenshot.png)
 
 ## ⌨️ Keybindings
