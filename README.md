@@ -11,8 +11,6 @@
 | <kbd>Esc</kbd>                                    | Close Dialogs                           |
 
 
-
-
 ## 🔍 Search Dialog
 ![image](assets/search-dialog.png)
 
@@ -25,16 +23,10 @@ By default, the defined search engines are:
 - `!p`: pinterest
 
 
-
 ## ⚙️ Configuration Dialog
 ![config-dialog](assets/config-dialog.png)
 
 The default configuration file is [userconfig.js](userconfig.js), but you can change it in the configuration dialog. You can find more information about how the file works in the [original repository](https://github.com/b-coimbra/dawn). The available components are tabs, a clock, and weather.
-
-Additionally, there are two different new options:
-- `fastlink`: To set the link of the Pokeball button.
-- `localIcons`: To optimize the loading time of the icons, you can check it out [here](#local-icons).
-
 
 
 ## ⬇️ Installation and Setup
@@ -53,15 +45,7 @@ This project is designed for ease of use. Simply download and open in a browser.
 3. You can use the google extention  named `custom new Tab url` which allows you to set a local file as the startup page or you can direcly upload the project using github pages in your own repo using your custom configs :)
 
 
-If you want to reduce the loading time of the icons, you could install the icon font locally and activate the option "localIcons": true in the config to disable the remote styles.
-
-
-## 🖼 Local Icons
-If you want to reduce the loading time of the icons, you could install the [icon font](https://github.com/kiroris/startpage/tree/master/src/fonts) locally and activate the option `"localIcons": true` in the config to disable the remote styles.
-
-
 ## 👤 Credits
-Improvised on [Dawn](https://github.com/b-coimbra/dawn), [Terminal127](https://github.com/Terminal127/tokyonight-startpage), and [Taurus](https://github.com/AllJavi/tartarus-startpage)
-[AllJavi](https://github.com/AllJavi) thx for README.
+Improvised on [Dawn](https://github.com/b-coimbra/dawn), [Terminal127](https://github.com/Terminal127/tokyonight-startpage), and [Taurus](https://github.com/AllJavi/tartarus-startpage).
 
 
