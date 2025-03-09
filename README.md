@@ -60,5 +60,7 @@ If you want to reduce the loading time of the icons, you could install the icon 
 If you want to reduce the loading time of the icons, you could install the [icon font](https://github.com/kiroris/startpage/tree/master/src/fonts) locally and activate the option `"localIcons": true` in the config to disable the remote styles.
 
 
-## 👥 Credits
+## 👤 Credits
 Improvised on [Dawn](https://github.com/b-coimbra/dawn), [Taurus](https://github.com/AllJavi/tartarus-startpage), and [Terminal127](https://github.com/Terminal127/tokyonight-startpage)
+
+
