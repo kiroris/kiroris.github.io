@@ -1,4 +1,4 @@
-![image](assets/myself.png)
+
 
 
 
@@ -14,7 +14,7 @@
 
 
 ## 🔍 Search Dialog
-![image](assets/search-dialog.png)
+![image](assets/search-dialogg.png)
 
 The search dialog allows you to display a search bar with various search engines defined in the configuration. To select each one, you simply need to prefix the query with the corresponding `!<id>`.
 By default, the defined search engines are:
