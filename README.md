@@ -1,5 +1,5 @@
-# kiroris
-![image](assets/screenshot.png)
+# Home-Dir
+![image](assets/homedir.png)
 
 ## ⌨️ Keybindings
 | Hotkey                                            | Action                                  |
@@ -35,7 +35,7 @@ This project is designed for ease of use. Simply download and open in a browser.
 1. **Clone or Download:**
    - **Clone the Repository:**
      ```bash
-     git clone https://github.com/kiroris/startpage
+     git clone https://github.com/kiroris/homedir
      ```
    - **Download as ZIP (Simpler for Users):**  Download the project as a ZIP file from the repository and extract it to a local folder.
 
