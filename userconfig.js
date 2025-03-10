@@ -150,25 +150,37 @@ const default_config = {
       background_url: "src/img/banners/girlfriend/lizabg-2.gif",
       categories: [
         {
-          name: "programming",
+          name: "crypto",
           links: [
             {
-              name: "vscode",
-              url: "https://vscode.dev/",
-              icon: "brand-vscode",
-              icon_color: "#73AAE9",
+              name: "binance",
+              url: "https://www.binance.com",
+              icon: "brand-binance",
+              icon_color: "#DDBB3F",
             },
             {
-              name: "rust doc",
-              url: "https://doc.rust-lang.org/book/",
-              icon: "brand-rust",
+              name: "bybit",
+              url: "http://www.bybit.com",
+              icon: "currency-bitcoin",
               icon_color: "#e78a4e",
             },
             {
-              name: "go doc",
-              url: "https://go.dev/doc/",
-              icon: "brand-golang",
-              icon_color: "#5FC2B5",
+              name: "bynex",
+              url: "https://bynex.io/",
+              icon: "brand-bootstrap",
+              icon_color: "#7DB6E1",
+            },
+            {
+              name: "okx",
+              url: "http://www.okx.com",
+              icon: "components",
+              icon_color: "#D1D7E0",
+            },
+            {
+              name: "Trading View",
+              url: "http://tradingview.com",
+              icon: "trending-up",
+              icon_color: "#a9b665",
             },
           ],
         },
@@ -311,8 +323,18 @@ const default_config = {
               icon: "brand-stackoverflow",
               icon_color: "#e0af68",
             },
-
-
+            {
+              name: "go",
+              url: "https://go.dev/doc/",
+              icon: "brand-golang",
+              icon_color: "#5FC2B5",
+            },
+            {
+              name: "rust",
+              url: "https://doc.rust-lang.org/book/",
+              icon: "brand-rust",
+              icon_color: "#e78a4e",
+            },
           ],
         },
         {
