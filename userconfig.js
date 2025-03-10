@@ -167,14 +167,14 @@ const default_config = {
             {
               name: "bynex",
               url: "https://bynex.io/",
-              icon: "brand-bootstrap",
+              icon: "brand-graphql",
               icon_color: "#7DB6E1",
             },
             {
               name: "okx",
               url: "http://www.okx.com",
               icon: "components",
-              icon_color: "#D1D7E0",
+              icon_color: "#E6E6E6",
             },
             {
               name: "Trading View",
