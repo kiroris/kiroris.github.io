@@ -1,4 +1,4 @@
-# Homedir
+# Home-Dir
 ![image](assets/homedir.png)
 
 ## ⌨️ Keybindings
